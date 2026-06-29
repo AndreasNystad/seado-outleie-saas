@@ -1,0 +1,26 @@
+seadoo-spark-saas/
+│
+├── app/
+│   ├── page.tsx
+│   ├── booking/page.tsx
+│   ├── admin/page.tsx
+│   ├── login/page.tsx
+│   ├── api/vipps/route.ts
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Calendar.tsx
+│   ├── BookingCard.tsx
+│
+├── lib/
+│   ├── supabase.ts
+│   ├── pricing.ts
+│   ├── auth.ts
+│
+├── styles/
+│
+├── middleware.ts
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+└── .env.example
