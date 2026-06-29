@@ -1,6 +1,5 @@
 # seado-outleie-saas
-{
-  "name": "seadoo-saas",
+{"name": "seadoo-saas",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -15,8 +14,7 @@
     "@fullcalendar/react": "latest",
     "@fullcalendar/daygrid": "latest"
   }
-}
-export default function Home() {
+}export default function Home() {
   return (
     <div style={{ padding: 40, fontFamily: "Arial" }}>
       
@@ -37,8 +35,7 @@ export default function Home() {
 
     </div>
   );
-}
-"use client";
+}"use client";
 
 import { useState } from "react";
 
@@ -68,16 +65,13 @@ export default function Booking() {
 
     </div>
   );
-}
-import { createClient } from "@supabase/supabase-js";
+}import { createClient } from "@supabase/supabase-js";
 
 export const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-);
-module.exports = {
+);module.exports = {
   reactStrictMode: true
-};
-NEXT_PUBLIC_SUPABASE_URL=
+};NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 VIPPS_TOKEN=
